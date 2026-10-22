@@ -19,6 +19,23 @@ class Solution(object):
                 input[z]=1
        for y in range(i,i+len(p)):
 				 		z=s[y]
+		     if z in count:
+                    count[z] -= 1
+                else:
+                    count[z] = -1
+                    
+            isthere=True
+
+            for z in count:
+                if count[z]!=0:
+                    isthere=False
+                    break
+
+            if isthere:
+                ans+=[i]					
+        
+        return ans
+
 
 						
         
