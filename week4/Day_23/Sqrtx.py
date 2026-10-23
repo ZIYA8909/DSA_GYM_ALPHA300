@@ -1,7 +1,6 @@
 low=0
 ans=0
 high=x
-
 while low<=high:
     mid=(low+high)//2
 
