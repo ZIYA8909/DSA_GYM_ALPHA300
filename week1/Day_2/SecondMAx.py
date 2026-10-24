@@ -1,7 +1,5 @@
    largest=nums[0]
-     
-
-        for i in range(1,len(nums)):
+           for i in range(1,len(nums)):
             if largest<nums[i]:
                 largest=nums[i]
         second=None
