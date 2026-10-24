@@ -1,10 +1,9 @@
 class Solution:
     def findCeil(self, arr, x):
-        # code here
+        
         floor=-1
         ceil=-1
-
-              
+             
         low=0
         high=len(arr)-1
 
