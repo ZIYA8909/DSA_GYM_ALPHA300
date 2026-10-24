@@ -4,7 +4,3 @@ for i in range(1,len(nums)):
         max=nums[i]
         
 return max
-<<<<<<< HEAD
-=======
-
->>>>>>> 01bf7ee1590978b507001f0a5a73b9a2302da4d3
