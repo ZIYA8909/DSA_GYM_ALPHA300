@@ -1,5 +1,3 @@
-
-
 nums=[1,2,3,4,5]
 first=nums[0]
 #left
