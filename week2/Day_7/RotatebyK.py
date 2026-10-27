@@ -10,7 +10,7 @@ class Solution(object):
 
         left=0
         right=n-1
-
+#rotate whole array
         while left<right:
             temp=nums[left]
             nums[left]=nums[right]
@@ -20,7 +20,7 @@ class Solution(object):
 
         left=0
         right=k-1
-
+#rotate k elements
         while left<right:
             temp=nums[left]
             nums[left]=nums[right]
@@ -30,7 +30,7 @@ class Solution(object):
 
         left=k
         right=n-1
-
+#rotate elements after kth position
         while left<right:
             temp=nums[left]
             nums[left]=nums[right]
